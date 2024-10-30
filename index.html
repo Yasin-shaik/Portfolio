@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link
+      id="favicon"
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-png"
+    />
+
+    <title>Portfolio | Yasin Shaik</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HTDER8P9VJ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-HTDER8P9VJ");
+    </script>
+  </head>
+  <body oncontextmenu="return false">
+    <!-- pre loader -->
+    <!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+    <!-- navbar starts -->
+    <header>
+      <a href="index.html" class="logo"><i class="fab fa-node-js"></i> Yasin</a>
+
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- navbar ends -->
+
+    <!-- hero section starts -->
+    <section class="home" id="home">
+      <div id="particles-js"></div>
+
+      <div class="content">
+        <h2>
+          Hi There,<br />
+          I'm Yasin <span>Shaik</span>
+        </h2>
+        <p>i am into <span class="typing-text"></span></p>
+        <a href="#about" class="btn"
+          ><span>About Me</span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <div class="socials">
+          <ul class="social-icons">
+            <li>
+              <a
+                class="linkedin"
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/md-yasin-shaik/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="github"
+                aria-label="GitHub"
+                href="https://github.com/Yasin-shaik"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          draggable="false"
+          class="tilt"
+          src="./assets/images/hero.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- hero section ends -->
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+      <h2 class="heading">
+        <i class="fas fa-user-alt"></i> About <span>Me</span>
+      </h2>
+
+      <div class="row">
+        <div class="image">
+          <img
+            draggable="false"
+            class="tilt"
+            src="./assets/images/profile3.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>I'm Yasin</h3>
+          <span class="tag">Third Year Undergrad</span>
+
+          <p>
+            I’m a passionate and results-driven undergrad at
+            <b>SRM University AP</b> with a strong foundation in MERN Full Stack
+            Development, Machine Learning, and core programming languages like
+            C++, Python, and JavaScript. With hands-on experience in Data
+            Structures and Algorithms, I enjoy solving complex technical
+            challenges and building efficient, scalable solutions. <br />I have
+            a solid understanding of DBMS, OOP concepts, Networking, and
+            Operating Systems, which further complements my development and
+            problem-solving skills. My proficiency with tools like GitHub, the
+            Linux terminal, and VS Code allows me to work efficiently in
+            collaborative environments, ensuring code quality and project
+            success.<br />
+            Beyond technical expertise, I’m highly adaptable, creative, and
+            thrive in team settings where I can contribute to shared goals. I
+            communicate effectively and am always eager to learn new
+            technologies and methodologies that can enhance my work.<br />
+            I’m excited to leverage my skills and creativity in projects that
+            make an impact. Let’s connect and explore how we can collaborate to
+            achieve great things!
+          </p>
+
+          <div class="box-container">
+            <div class="box">
+              <p><span> phone : </span> +91 8498085185</p>
+            </div>
+            <div class="box">
+              <p><span> email : </span> skyasin2004@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="resumebtn">
+            <a
+              href="https://www.linkedin.com/in/md-yasin-shaik/"
+              class="btn"
+              target="_blank"
+              ><span>LinkedIn</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- skills section starts -->
+    <section class="skills" id="skills">
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span>
+      </h2>
+
+      <div class="container">
+        <div class="row" id="skillsContainer"></div>
+      </div>
+    </section>
+    <!-- skills section ends -->
+
+    <!-- work project section starts -->
+    <section class="work" id="work">
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> Projects <span>Made</span>
+      </h2>
+
+      <div class="box-container" id="projectsContainer"></div>
+    </section>
+    <!-- work project section ends -->
+ 
+
+    <!-- education section starts -->
+    <section class="education" id="education">
+      <h1 class="heading">
+        <i class="fas fa-graduation-cap"></i> My <span>Education</span>
+      </h1>
+
+      <p class="qoute">
+        Education is not the learning of facts, but the training of the mind to
+        think.
+      </p>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/srmap.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>B.Tech in CSE</h3>
+            <p>SRM UNIVERSITY AP</p>
+            <p>CGPA: 9.28 (upto 4th Sem)</p>
+            <h4>2022-2026 | Pursuing</h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/sri-chaitanya.avif"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Intermediate(12th) | PCM</h3>
+            <p>Sri Chaitanya Junior college</p>
+            <p>Marks: 976/1000</p>
+            <h4>2020-2022 | Completed</h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/st.anns.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Schooling(10th)</h3>
+            <p>St.Ann's English Medium School</p>
+            <p>Marks: 591/600</p>
+            <h4>2019-2020 | Completed</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- education section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Yasin's Portfolio</h3>
+          <p>
+            Thank you for visiting my personal portfolio website. Connect with
+            me over socials. <br />
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"
+            ><i class="fas fa-chevron-circle-right"></i> skills</a
+          >
+          <a href="#education"
+            ><i class="fas fa-chevron-circle-right"></i> education</a
+          >
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> Projects </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <p><i class="fas fa-phone"></i>+91 8498085185</p>
+          <p><i class="fas fa-envelope"></i>skyasin2004@gmail.com</p>
+          <p>
+            <i class="fas fa-map-marked-alt"></i>Narasaraopet, Guntur District
+          </p>
+          <div class="share">
+            <a
+              href="https://www.linkedin.com/in/md-yasin-shaik/"
+              class="fab fa-linkedin"
+              aria-label="LinkedIn"
+              target="_blank"
+            ></a>
+            <a
+              href="https://github.com/Yasin-shaik"
+              class="fab fa-github"
+              aria-label="GitHub"
+              target="_blank"
+            ></a>
+            <a
+              href="mailto:skyasin2004@gmail.com"
+              class="fas fa-envelope"
+              aria-label="Mail"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        Designed with <i class="fa fa-heart pulse"></i> by
+        <a href="https://www.linkedin.com/in/md-yasin-shaik/" target="_blank">
+          Yasin Shaik</a
+        >
+      </h1>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- scroll top btn -->
+    <a
+      href="#home"
+      aria-label="ScrollTop"
+      class="fas fa-angle-up"
+      id="scroll-top"
+    ></a>
+    <!-- scroll back to top -->
+
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- typed.js cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- particle.js links -->
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+    <!-- vanilla tilt.js links -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+      integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- scroll reveal anim -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
