@@ -1,12 +1,22 @@
 [
   {
     "name": "Career Compass",
-    "desc": "Career Compass is a Job search web application to find the right job for developers and a platform to post jobs for recruiters.",
+    "desc": "Career Compass is a Job search MERN stack application to find the right job for developers and a platform to post jobs for recruiters.",
     "image": "logo.jpg",
     "category": "native_android",
     "links": {
       "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
       "code": "https://github.com/Yasin-shaik/Career-Compass.git"
+    }
+  },
+  {
+    "name": "Speak Easy",
+    "desc": "SpeakEasy is a Real time chat web application built using MERN stack and Socket.IO",
+    "image": "speakeasy.avif",
+    "category": "native_android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
+      "code": "https://github.com/Yasin-shaik/SpeakEasy.git"
     }
   },
   {
@@ -37,16 +47,6 @@
     "links": {
       "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
       "code": "https://github.com/Yasin-shaik/Text-Editor.git"
-    }
-  },
-  {
-    "name": "Johnson's Algorithm",
-    "desc": "Johnson's algorithm to find all pairs shortest path involves two main steps:reweighting using the Bellman-Ford algorithm & then applying Dijkstra's algorithm for each vertex.",
-    "image": "johnson-algorithm.png",
-    "category": "native_android",
-    "links": {
-      "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
-      "code": "https://github.com/Yasin-shaik/Johnsons-s-Algorithm-DAA-Project.git"
     }
   },
   {
