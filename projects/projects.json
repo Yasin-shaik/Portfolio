@@ -5,7 +5,6 @@
     "image": "logo.jpg",
     "category": "native_android",
     "links": {
-      "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
       "code": "https://github.com/Yasin-shaik/Career-Compass.git"
     }
   },
@@ -15,7 +14,6 @@
     "image": "speakeasy.avif",
     "category": "native_android",
     "links": {
-      "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
       "code": "https://github.com/Yasin-shaik/SpeakEasy.git"
     }
   },
@@ -25,7 +23,6 @@
     "image": "btree.png",
     "category": "native_android",
     "links": {
-      "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
       "code": "https://github.com/Yasin-shaik/B-Tree-Project.git"
     }
   },
@@ -35,7 +32,6 @@
     "image": "dict.png",
     "category": "native_android",
     "links": {
-      "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
       "code": "https://github.com/Yasin-shaik/Dictionary-ADT.git"
     }
   },
@@ -45,7 +41,6 @@
     "image": "text.png",
     "category": "native_android",
     "links": {
-      "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
       "code": "https://github.com/Yasin-shaik/Text-Editor.git"
     }
   },
@@ -55,7 +50,6 @@
     "image": "day.webp",
     "category": "native_android",
     "links": {
-      "view": "https://play.google.com/store/apps/details?id=achivementtrackerbyamit.example.achivetracker",
       "code": "https://github.com/Yasin-shaik/Day-Finder.git"
     }
   }
