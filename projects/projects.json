@@ -1,5 +1,23 @@
 [
   {
+    "name": "SnackSense",
+    "desc": "SnackSense is designed to help users make healthier, smarter, and more eco-conscious food choices, By scanning the barcode of a snack item.",
+    "image": "SnackSense.png",
+    "category": "native_android",
+    "links": {
+      "code": "https://github.com/Yasin-shaik/SnackSense"
+    }
+  },
+  {
+    "name": "Kanban Board",
+    "desc": "a full-stack implementation of a simplified Trello-like Kanban board, built using the MERN stack.",
+    "image": "Kanban.png",
+    "category": "native_android",
+    "links": {
+      "code": "https://github.com/Yasin-shaik/Trello-Kanban"
+    }
+  },
+  {
     "name": "Career Compass",
     "desc": "Career Compass is a Job search MERN stack application to find the right job for developers and a platform to post jobs for recruiters.",
     "image": "logo.jpg",
@@ -9,48 +27,21 @@
     }
   },
   {
+    "name": "Finboard",
+    "desc": "FinBoard is a Customizable Finance Dashboard where users can build their own real-time finance monitoring dashboard",
+    "image": "Dashboard.png",
+    "category": "native_android",
+    "links": {
+      "code": "https://github.com/Yasin-shaik/FinBoard"
+    }
+  },
+  {
     "name": "Speak Easy",
     "desc": "SpeakEasy is a Real time chat web application built using MERN stack and Socket.IO",
     "image": "speakeasy.avif",
     "category": "native_android",
     "links": {
       "code": "https://github.com/Yasin-shaik/SpeakEasy.git"
-    }
-  },
-  {
-    "name": "B - Tree using OOP concepts",
-    "desc": "Implemented a B-Tree Data Structure using Object Oriented Programming concepts and C++ Programming Language.",
-    "image": "btree.png",
-    "category": "native_android",
-    "links": {
-      "code": "https://github.com/Yasin-shaik/B-Tree-Project.git"
-    }
-  },
-  {
-    "name": "Dictionary ADT",
-    "desc": "Implemented the Dictionary Data Structure in C Language. Structures, void pointers and Linked list Data structure is used to store the key, values pairs.",
-    "image": "dict.png",
-    "category": "native_android",
-    "links": {
-      "code": "https://github.com/Yasin-shaik/Dictionary-ADT.git"
-    }
-  },
-  {
-    "name": "Text Editor",
-    "desc": "Implemented a Text editor using C Programming Language, Stack Data Structure and File management. Stack is used to implement undo and redo operations.",
-    "image": "text.png",
-    "category": "native_android",
-    "links": {
-      "code": "https://github.com/Yasin-shaik/Text-Editor.git"
-    }
-  },
-  {
-    "name": "Day Finder",
-    "desc": "Implemented a Day finder Software using C Language. It takes date, month and year as inputs and output the Day. It works on the concept of odd days calculation.",
-    "image": "day.webp",
-    "category": "native_android",
-    "links": {
-      "code": "https://github.com/Yasin-shaik/Day-Finder.git"
     }
   }
 ]

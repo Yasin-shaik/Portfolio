@@ -32,6 +32,14 @@
     "icon": "./assets/images/skills/react.png"
   },
   {
+    "name": "Next JS",
+    "icon": "./assets/images/skills/Nextjs.png"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "./assets/images/skills/Type.jpg"
+  },
+  {
     "name": "Express JS",
     "icon": "./assets/images/skills/express.jpeg"
   },
@@ -44,36 +52,36 @@
     "icon": "./assets/images/skills/mongo.png"
   },
   {
+    "name": "RESTful APIs",
+    "icon": "./assets/images/skills/Rest.png"
+  },
+  {
     "name": "SQL",
     "icon": "./assets/images/skills/sql.png"
   },
   {
-    "name": "PHP",
-    "icon": "./assets/images/skills/php.png"
+    "name": "Spring Boot",
+    "icon": "./assets/images/skills/Spring.png"
+  },
+  {
+    "name": "ML",
+    "icon": "./assets/images/skills/ML.jpg"
+  },
+  {
+    "name": "Docker",
+    "icon": "./assets/images/skills/docker.png"
+  },
+  {
+    "name": "Kubernetes",
+    "icon": "./assets/images/skills/Kubernetes.png"
   },
   {
     "name": "GitHub",
     "icon": "./assets/images/skills/github.png"
   },
   {
-    "name": "VS Code",
-    "icon": "./assets/images/skills/vs.jpeg"
-  },
-  {
     "name": "TensorFlow",
     "icon": "./assets/images/skills/tensor.png"
-  },
-  {
-    "name": "NumPy",
-    "icon": "./assets/images/skills/numpy.png"
-  },
-  {
-    "name": "Pandas",
-    "icon": "./assets/images/skills/pandas.png"
-  },
-  {
-    "name": "MaterialUI",
-    "icon": "./assets/images/skills/material.png"
   },
   {
     "name": "Bootstrap",
